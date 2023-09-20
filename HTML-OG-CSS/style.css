@@ -1,6 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: calc(1em + 1vw);
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: #efefef;
 }
 
 /*CSS for header og nav*/
@@ -39,9 +47,62 @@ main section h2{
 
 article{
     max width: 400px;
-    min width: 250px;
-    margin: 0 auto;
+    min width:250px;
+    margin:1rem auto;
+    background-color:#fff;
 }
+
 main section article img{
     width: 100%;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.6rem;
+}
+
+p{
+    font-size:1.4rem;
+    margin: 15px;
+}
+
+
+.read-more-btn{
+    background-color: #1a1a1a;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration:none;
+    margin: 0.5rem;
+}
+
+#about-section{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#about-section p{
+    text-align: justify;
+}
+
+#pynt{
+    background-image: url("img/shellfish-8080937_1280.jpg");
+    height: 300px;
+    padding: 2rem;
+    background-size: cover;
+    margin: 2rem;
+}
+
+#subscribe{
+    background-color: #fff;
+    padding: 1rem;
+    text-align:center;
+}
+
+#subscribe form label, #subscribe form input{
+    display:block;
+    margin:0 auto;
 }
