@@ -46,8 +46,8 @@ main section h2{
 }
 
 article{
-    max width: 400px;
-    min width:250px;
+    max-width: 400px;
+    min-width: 250px;
     margin:1rem auto;
     background-color:#fff;
 }
@@ -106,3 +106,30 @@ p{
     display:block;
     margin:0 auto;
 }
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+ 
+footer nav ul li a {
+    padding: 0.5rem;
+ }
+ 
+#Social-Icons {
+    padding:0;
+    margin: 1rem 0;
+    text-align:center;
+ }
+
+#Social-Icons li {
+    display: inline-block;
+    background-color: #000;
+    color:#fff;
+    width: 60px;
+    padding: 0.5rem;
+    height: 60px;
+    border-radius: 50%;
+ }
